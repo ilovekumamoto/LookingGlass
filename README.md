@@ -5,7 +5,7 @@
 程序说明与搭建教程：[https://www.sabia.cc/looking-glass-ip-location.html](https://www.sabia.cc/looking-glass-ip-location.html)
 
 ## Demo
-[https://lg.de.vps77.com](https://lg.de.vps77.com)
+[https://lg.test.testip.xyz](https://lg.test.testip.xyz)
 
 ## Fork后的修改
 1、修改IPv4下的路由追踪，结果将包含由IPIP提供的IP地理信息数据  
