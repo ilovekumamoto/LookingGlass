@@ -96,6 +96,7 @@ function getIP() {
                 ?></p>
               </div>
               <p>您的IP: <b><a href="#tests" id="userip"><?php echo getIP(); ?></a></b></p>
+              <p>購買同款產品：<a href="https://hmbcloud.com/cart.php?gid=32">洛杉磯 DC5</a></p>
             </div>
           </div>
         </div>
