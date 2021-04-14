@@ -84,12 +84,12 @@ function getIP() {
         <div class="row">
           <div class="span12">
             <div class="well">
-              <span id="legend">网络信息</span><!-- IE/Safari dislike <legend> out of context -->
-              <p>服务器位置: <b><?php echo $serverLocation; ?></b></p>
+              <span id="legend">網絡訊息</span><!-- IE/Safari dislike <legend> out of context -->
+              <p>服務器位置: <b><?php echo $serverLocation; ?></b></p>
               <div style="margin-left: 10px;">
-                <p>测试 IPv4: <?php echo $ipv4; ?></p>
-                <p><?php if (!empty($ipv6)) { echo '测试 IPv6: ',$ipv6; } ?></p>
-                <p>测试文件: <?php
+                <p>測試 IPv4: <?php echo $ipv4; ?></p>
+                <p><?php if (!empty($ipv6)) { echo '測試 IPv6: ',$ipv6; } ?></p>
+                <p>測試文件: <?php
                   foreach ($testFiles as $val) {
                     echo "<a href=\"{$val}.test\" id=\"testfile\">{$val}</a> ";
                   }
@@ -107,7 +107,7 @@ function getIP() {
           <div class="span12">
             <form class="well form-inline" id="networktest" action="#results" method="post">
               <fieldset>
-                <span id="legend">网络测试</span>
+                <span id="legend">網絡測試</span>
                 <div id="hosterror" class="control-group">
                   <div class="controls">
                     <input id="host" name="host" type="text" class="input-large" placeholder="域名或IP">
@@ -122,7 +122,7 @@ function getIP() {
                   <option value="traceroute">traceroute</option>
                   <?php if (!empty($ipv6)) { echo '<option value="traceroute6">traceroute6</option>'; } ?>
                 </select>
-                <button type="submit" id="submit" name="submit" class="btn btn-primary" style="margin-left: 10px;">开始测试</button>
+                <button type="submit" id="submit" name="submit" class="btn btn-primary" style="margin-left: 10px;">開始測試</button>
               </fieldset>
             </form>
           </div>
@@ -134,7 +134,7 @@ function getIP() {
         <div class="row">
           <div class="span12">
             <div class="well">
-              <span id="legend">测试结果</span>
+              <span id="legend">測試結果</span>
               <pre id="response" style="display:none"></pre>
             </div>
           </div>
@@ -145,7 +145,7 @@ function getIP() {
       <footer class="footer nohighlight">
         <p class="pull-right">
             <a href="<?php echo $siteUrl . "/en.php"; ?>">English</a>
-            <a href="#">回到顶部</a>
+            <a href="#">回到頂部</a>
         </p>
         <p>Modified by <a href="https://github.com/ILLKX/LookingGlass">LookingGlass</a> - Powered by <a href="https://github.com/telephone/LookingGlass">LookingGlass</a></p>
       </footer>
